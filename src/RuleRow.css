@@ -42,9 +42,13 @@
 .RuleRow-name {
   width: 50%;
   text-align: left;
+  color: #4c05cf;
+  font-weight: 500;
 }
 
 .RuleRow-score {
   width: 50%;
   text-align: right;
+  font-weight: 500;
+  color: #4c05cf;
 }

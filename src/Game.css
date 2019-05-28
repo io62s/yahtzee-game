@@ -32,7 +32,7 @@ h2 {
 .Game-reroll {
   font-size: 1.5rem;
   color: rgb(76, 5, 207);
-  padding: 1rem 0;
+  padding: 0.5rem 1rem;
   font-weight: 100;
   transition: 0.5s;
   background-size: 200% auto;
@@ -45,8 +45,6 @@ h2 {
   );
   border-radius: 0.5rem;
   border: none;
-  width: 50%;
-
   margin-bottom: 2rem;
 }
 
