@@ -7,6 +7,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 h2 {
   font-weight: 100;
@@ -28,17 +30,18 @@ h2 {
 }
 
 .Game-reroll {
-  font-size: 2em;
-  color: white;
+  font-size: 1.5rem;
+  color: rgb(76, 5, 207);
+  padding: 1rem 0;
   font-weight: 100;
   transition: 0.5s;
   background-size: 200% auto;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(
     to right,
-    #91eae4 0%,
-    #7f7fd5 51%,
-    #91eae4 100%
+    #0aecce 0%,
+    #09c6ff 51%,
+    #0aecce 100%
   );
   border-radius: 0.5rem;
   border: none;
@@ -70,11 +73,13 @@ h2 {
 
 .Game-header {
   width: 100%;
-  background: linear-gradient(-45deg, #673ab7, #9c27b0);
+  background: linear-gradient(-45deg, #0969e7, #b20de4);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 @keyframes Gradient {
